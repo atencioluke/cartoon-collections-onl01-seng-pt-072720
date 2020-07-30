@@ -7,7 +7,8 @@ def summon_captain_planet(planeteer_calls)
 end
 
 def long_planeteer_calls(words)
-  return true if words.count { |word| word.length > 4 } > 1
+  i = words.count { |word| word.length > 4 }
+  return true if i >= 1
 end
 
 def find_the_cheese# code an argument here
