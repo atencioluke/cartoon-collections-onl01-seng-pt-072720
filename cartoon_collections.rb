@@ -1,5 +1,7 @@
-def roll_call_dwarves# code an argument here
-  # Your code here
+def roll_call_dwarves(dwarves)
+  dwarf_list = []
+  dwarves.map { |dwarf| dwarf }
+  return dwarves
 end
 
 def summon_captain_planet# code an argument here
