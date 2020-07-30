@@ -8,7 +8,7 @@ end
 
 def long_planeteer_calls(words)
   i = words.count { |word| word.length > 4 }
-  return true if i >= 1
+  i >= 1 ? true : false
 end
 
 def find_the_cheese# code an argument here
